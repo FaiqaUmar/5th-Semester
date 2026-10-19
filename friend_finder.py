@@ -4,7 +4,8 @@ from collections import deque
 network = {
     "Ali": ["Bilal", "Sara"],
     "Bilal": ["Ali", "Zara"],
-    "Sara": ["Ali", "Omar"],
+    "Sara": ["Ali", "Omar", "Usman"],
+    "Usman": ["Sara"],
     "Zara": ["Bilal", "Hira"],
     "Omar": ["Sara"],
     "Hira": ["Zara"]
